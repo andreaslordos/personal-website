@@ -1,5 +1,4 @@
 import React from 'react';
-import Page from '../components/Page';
 
 const Photo = () => {
   const importAll = (r) => r.keys().map(r);
@@ -13,7 +12,7 @@ const Photo = () => {
             <div key={index} className="bg-white shadow-md">
               <img
                 src={image}
-                alt={`Photo ${index + 1}`}
+                alt=''
                 className="w-full"
               />
             </div>
