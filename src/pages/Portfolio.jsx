@@ -5,7 +5,13 @@ import PortfolioItem from '../components/PortfolioItem';
 const Portfolio = () => {
   return (
     <Page>
-      <div className="py-8">        
+      <div className="py-8">  
+        <PortfolioItem 
+          title="Cyprus2Campus"
+          url="https://cyprus2campus.com"
+          description="College admissions consulting company I run with my sister for Cypriot high school students looking to get into top schools"
+        />
+        <hr className="my-6 border-t border-gray-300" />      
         <PortfolioItem 
           title="Decades"
           url="https://decades.lordos.tech"

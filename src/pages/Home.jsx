@@ -29,6 +29,7 @@ const Home = () => {
           <br/>
           <b><u>Work</u></b>
           <ul className='list-disc list-inside'>
+            <li>run a <b><a href="https://cyprus2campus.com" target="_blank" rel="noreferrer">college admissions consulting company</a></b> for Cypriot students with my sister</li>
             <li>worked full stack at a unicorn procurement startup (<b><a href="https://www.ziphq.com" rel="noreferrer" target='_blank'>Zip</a></b>)</li>
             <li>did iOS dev at <b>Meta</b> </li>
             <li>designed the new loyalty program for Cyprus' largest supermarket chain (<b><a href="https://alphamega.com.cy" target="_blank" rel="noreferrer">Alphamega</a></b>)</li>
