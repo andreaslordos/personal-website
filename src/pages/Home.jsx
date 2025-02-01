@@ -37,9 +37,10 @@ const Home = () => {
           <br/>
           <b><u>School</u></b>
           <ul className='list-disc list-inside'>
-            <li>graduating in 2026, Computer Science and Economics</li>
+            <li>graduating in 2026, Computer Science and Economics (double)</li>
+            <li>researching EV charger access at the <a href="https://salatainstitute.harvard.edu/projects/ev/" target='_blank' rel="noreferrer"><b>Salata Institute</b></a></li>
             <li>host weekly radio shows at <a href="https://www.whrb.org" target='_blank' rel="noreferrer"><b>WHRB</b></a></li>
-            <li>brought the oldest literary magazine in the country (<b><a href="https://theharvardadvocate.com" target="_blank" rel="noreferrer">The Advocate</a></b>) into the 21st century</li>
+            <li>built the website for the oldest literary magazine in the country (<b><a href="https://theharvardadvocate.com" target="_blank" rel="noreferrer">The Advocate</a></b>), developed fundraising and merch pipelines</li>
             <li>helped teach a <b>Discrete Math</b> class</li>
           </ul>
           <br/>
