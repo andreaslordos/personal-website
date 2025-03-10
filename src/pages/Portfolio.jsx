@@ -6,6 +6,11 @@ const Portfolio = () => {
   return (
     <Page>
       <div className="py-8">  
+      <PortfolioItem 
+          title="Forgotten Realms"
+          url="https://realms.lordos.tech"
+          description="Text adventure game with complex command parsing. Create an account and type HELP. WIP"
+        />
         <PortfolioItem 
           title="Cyprus2Campus"
           url="https://cyprus2campus.com"
