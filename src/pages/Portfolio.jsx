@@ -7,6 +7,11 @@ const Portfolio = () => {
     <Page>
       <div className="py-8">  
         <PortfolioItem 
+          title="CrimsonCal"
+          url="https://crimsoncal.lordos.tech"
+          description="Course selection website for Harvard students. Built using Vite. Inspired by MIT Hydrant"
+        />
+        <PortfolioItem 
           title="Forgotten Realms"
           url="https://realms.lordos.tech"
           description="Online multiplayer adventure game with complex command parsing. Create a persona and type help. WIP"
