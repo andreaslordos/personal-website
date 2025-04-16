@@ -13,6 +13,7 @@ const PortfolioItem = ({ title, url, description }) => {
         )}
       </h2>
       <p className="italic text-gray-600">{description}</p>
+      <hr className="my-6 border-t border-gray-300" />
     </div>
   );
 };
