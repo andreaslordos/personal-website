@@ -25,7 +25,7 @@ const Home = () => {
           )}
         </div>
         <div>
-          <p>Hey, I'm Andreas, a Junior at Harvard studying Computer Science and Economics.</p>
+          <p>Hey, I'm Andreas, a senior at Harvard studying Computer Science and Economics.</p>
           <br/>
           <b><u>Work</u></b>
           <ul className='list-disc list-inside'>
