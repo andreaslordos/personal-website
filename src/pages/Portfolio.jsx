@@ -7,14 +7,24 @@ const Portfolio = () => {
     <Page>
       <div className="py-8">  
         <PortfolioItem 
+          title="Switchboard"
+          url=""
+          description="Email automation workflow builder. Integrates with Gmail, Google Docs / Sheets, web search."
+        />
+        <PortfolioItem 
+          title="Eldrow"
+          url="https://eldrow.lordos.tech"
+          description="Made this to reverse engineer my friend's Wordle guesses using DFS"
+        />
+        <PortfolioItem 
           title="CrimsonCal"
           url="https://crimsoncal.lordos.tech"
-          description="Course selection website for Harvard students. Built using Vite. Inspired by MIT Hydrant"
+          description="Course selection website used by over 1000 Harvard students. Inspired by MIT Hydrant"
         />
         <PortfolioItem 
           title="Forgotten Realms"
           url="https://realms.lordos.tech"
-          description="Online multiplayer adventure game with complex command parsing. Create a persona and type help. WIP"
+          description="Online multiplayer adventure game with complex command parsing and GenAI procedural generation. Create a persona and type help to see commands. Forever a WIP as I keep adding more to the world."
         />
         <PortfolioItem 
           title="Cyprus2Campus"
@@ -44,7 +54,7 @@ const Portfolio = () => {
         <PortfolioItem 
           title="The Harvard Advocate"
           url="https://theharvardadvocate.com"
-          description="Front page for the oldest collegiate literary magazine in the country, receiving thousands of visits monthly. Was recognized as one of the most beautiful lit-mag sites on the internet"
+          description="Front page for the oldest collegiate literary magazine in the country, receiving thousands of visits monthly. Was recognized as one of the [most beautiful lit-mag sites on the internet](https://x.com/chillsubs/status/1686722906376536069)"
         />
       </div>
     </Page>
