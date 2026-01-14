@@ -8,7 +8,7 @@ const Portfolio = () => {
       <div className="py-8">  
         <PortfolioItem 
           title="Switchboard"
-          url=""
+          url="https://switchboard.lordos.tech"
           description="Email automation workflow builder. Integrates with Gmail, Google Docs / Sheets, web search."
         />
         <PortfolioItem 
