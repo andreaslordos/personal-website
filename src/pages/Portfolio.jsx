@@ -7,6 +7,11 @@ const Portfolio = () => {
     <Page>
       <div className="py-8">  
         <PortfolioItem 
+          title="Splat"
+          url="https://pypi.org/project/py-splat/"
+          description="Python crash-reporting library that turns runtime exceptions into rich GitHub issues, then triggers Claude Code via GitHub Actions to draft a fix PR using just two lines of server-side code."
+        />
+        <PortfolioItem 
           title="Switchboard"
           url="https://switchboard.lordos.tech"
           description="Email automation workflow builder. Integrates with Gmail, Google Docs / Sheets, web search."
@@ -14,7 +19,7 @@ const Portfolio = () => {
         <PortfolioItem 
           title="Eldrow"
           url="https://eldrow.lordos.tech"
-          description="Made this to reverse engineer my friend's Wordle guesses using DFS"
+          description="Reverse engineer Wordle guesses"
         />
         <PortfolioItem 
           title="CrimsonCal"
