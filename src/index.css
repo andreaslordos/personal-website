@@ -1,13 +1,47 @@
+@import url('https://rsms.me/inter/inter.css');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 html {
-  @apply bg-bg; /* set background color for entire website */
+  @apply bg-bg;
+}
+
+body {
+  @apply font-serif text-neutral-900;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 @layer components {
   .content a {
-    @apply text-link hover:underline hover:opacity-80 transition-all duration-200;
+    color: #0000AA;
+    text-decoration: none;
+    position: relative;
+  }
+  .content a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 0;
+    height: 1px;
+    background: currentColor;
+    transition: width 0.35s cubic-bezier(.2, .7, .2, 1);
+  }
+  .content a:hover {
+    text-decoration: none;
+  }
+  .content a:hover::after {
+    width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-fade-up,
+  .animate-float-slow {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
   }
 }

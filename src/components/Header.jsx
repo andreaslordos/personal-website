@@ -3,15 +3,15 @@ import { Link } from 'react-router-dom';
 
 export default function Header() {
     return (
-        <header className="sticky top-0 bg-bg border-b py-8 z-10">
-            <div className="flex justify-between px-4">
+        <header className="sticky top-0 bg-bg/90 backdrop-blur-sm py-6 z-10 font-sans">
+            <div className="max-w-[38rem] mx-auto flex justify-between items-center px-6 tracking-tight">
                 <div className="name">
-                    <Link to="/" className="mx-2 font-semibold font-classic hover:text-blue-500">Andreas Lordos</Link>
+                    <Link to="/" className="font-semibold hover:text-link transition-colors">Andreas Lordos</Link>
                 </div>
-                <div className="navbar">
-                    <Link to="/portfolio" className="mx-2 hover:text-blue-500">Portfolio</Link>
-                    <Link to="https://docs.google.com/viewer?url=https://docs.google.com/document/d/1krQDQF0vdmlpEbcMIqxd3jkJbStPEOVcz0mQPbAhSEw/export?format=pdf" target="_blank" rel="noopener noreferrer" className="mx-2 hover:text-blue-500">Resume</Link>
-                    <Link to="/photo" className="mx-2 hover:text-blue-500">Photo</Link>
+                <div className="navbar text-[0.95rem]">
+                    <Link to="/portfolio" className="ml-6 hover:text-link transition-colors">Portfolio</Link>
+                    <Link to="https://docs.google.com/viewer?url=https://docs.google.com/document/d/1krQDQF0vdmlpEbcMIqxd3jkJbStPEOVcz0mQPbAhSEw/export?format=pdf" target="_blank" rel="noopener noreferrer" className="ml-6 hover:text-link transition-colors">Resume</Link>
+                    <Link to="/photo" className="ml-6 hover:text-link transition-colors">Photo</Link>
                 </div>
             </div>
         </header>
