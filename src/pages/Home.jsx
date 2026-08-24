@@ -36,7 +36,7 @@ const Home = () => {
         Previously, I built enterprise software at Zip, iOS products at Meta, and loyalty systems at Alphamega. I grew up in Cyprus and studied CS and Economics at Harvard.
       </p>
       <p className="opacity-0 animate-fade-up" style={{ animationDelay: '0.75s' }}>
-        I also discovered <a href="https://www.minorplanetcenter.net/db_search/show_object?utf8=%E2%9C%93&object_id=2018+PG3" target="_blank" rel="noreferrer">this asteroid</a>.
+        I also discovered <a href="https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=825654" target="_blank" rel="noreferrer">this asteroid</a>.
       </p>
     </Page>
   );
