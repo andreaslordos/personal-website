@@ -12,16 +12,13 @@ const Home = () => {
 
   return (
     <Page>
-      <div
-        className="w-full max-w-96 mx-auto mb-14 opacity-0 animate-fade-up"
-        style={{ animationDelay: '0.15s' }}
-      >
+      <div className="w-full max-w-96 mx-auto mb-14">
         <div className="relative" style={{ paddingBottom: '75%' }}>
           {imageLoaded ? (
             <img
               src="/images/face2.png"
               alt="Andreas Lordos"
-              className="absolute inset-0 w-full h-full object-contain animate-float-slow transition-transform duration-500 ease-out hover:scale-[1.025]"
+              className="absolute inset-0 w-full h-full object-contain transition-transform duration-500 ease-out hover:scale-[1.025]"
             />
           ) : (
             <div className="absolute inset-0 w-full h-full bg-neutral-200/60 animate-pulse" />
