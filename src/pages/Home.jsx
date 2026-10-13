@@ -29,13 +29,13 @@ const Home = () => {
         </div>
       </div>
 
-      <p className="mb-6 opacity-0 animate-fade-up" style={{ animationDelay: '0.45s' }}>
+      <p className="mb-6">
         Working on applying AI to transform American service industries.
       </p>
-      <p className="mb-6 opacity-0 animate-fade-up" style={{ animationDelay: '0.6s' }}>
+      <p className="mb-6">
         Previously, I built enterprise software at Zip, iOS products at Meta, and loyalty systems at Alphamega. I grew up in Cyprus and studied CS and Economics at Harvard.
       </p>
-      <p className="opacity-0 animate-fade-up" style={{ animationDelay: '0.75s' }}>
+      <p>
         I also discovered <a href="https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=825654" target="_blank" rel="noreferrer">this asteroid</a>.
       </p>
     </Page>
